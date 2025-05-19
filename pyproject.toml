@@ -1,0 +1,22 @@
+[project]
+
+name = "mail"
+version = "0.1.0"
+description = "Utilidad de mail"
+
+authors = [
+    { name = "Cristian Bonilla" },
+    { name = "Michael Jimenez" },
+    { name = "Angela Santos" }
+]
+
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+mail-cli = "mail.mail:main"
